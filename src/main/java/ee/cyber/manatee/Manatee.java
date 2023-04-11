@@ -41,6 +41,7 @@ public class Manatee
 
     @Override
     public void run(String... args) throws Exception {
+
         List<Application> applications = new ArrayList<>();
         val draftInterview1 = InterviewDto.builder().interviewType(InterviewTypeDto.INFORMAL)
                 .time(OffsetDateTime.now()).interviewerName("interviewer1").build();
